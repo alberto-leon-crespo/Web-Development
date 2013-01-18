@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Example of use resizeLib.js</title>
+  <style>
+      #contenedor{
+        width: 800px;  // Put the width and height with a static value.
+        height: 600px;
+        background-color: #222222;
+        margin: auto;
+      }
+
+      #cabecera{
+        width: 100%;  // Put the width and height value of child divs with a percentage
+        height: 20%;
+        background-color: red;
+      }
+
+      #cuerpo{
+        width: 100%;
+        height: 80%;
+        background-color: white;
+      }
+  </style>
+</head>
+<body>
+  <div id="contenedor" class="resize_class"> // Put resize class to all elements yo want to resize
+    <div id="cabecera">
+
+    </div>
+    <div id="cuerpo">
+
+    </div>
+  </div>
+  <script src="resizeLib.js"></script>
+  <script>
+  window.onload=function(){
+    resize("1280x1024","resize_class");  // The resolution that you have designed the website with WIDTHxHEIGHT format.
+                                         // Set te name of the class you select to resize all elements with this.
+  }
+  </script>
+</body>
+</html>
