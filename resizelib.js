@@ -17,7 +17,7 @@ You must put the WIDTH x HEIGHT parameters into css style of references objects.
 Its performance is limited and sometimes you can see the resize on load.
 */
 
-
+//
 
 
 function resize(resolution, class_name_affected){ //resolution format is 800x600 or WIDTHxHEIGTH
