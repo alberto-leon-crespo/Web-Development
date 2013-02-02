@@ -14,8 +14,9 @@ You can put this script at the end of "<body>" with the tag "<script>".
 Put the class name at all elements you want to resize.
 First you should use the function window.onload and then use the call to the library ---> resize("800x600","resizable_elements")
 Then you call the library with 2 basic parameters:
-	-The resolution you get to call the function BODYSIZE (). This function will calculate the height
-	and the overall width of the body of your browser and you show it
+	-The width in pixels of your screen resolution. Then you call the function BODYSIZE to know the total height
+	of the body of your browser.
+	To call the function uses the screen width in pixels "x" the value returned by the function BODYSIZE
 	-The name of the class that you put HTML elements you want to resize.
 The sizing is based on calculated percentage measures the initial size WIDTH x HEIGHT defined in css style.
 You must put the WIDTH x HEIGHT parameters into css style of references objects.
