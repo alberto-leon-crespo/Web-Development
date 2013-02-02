@@ -6,24 +6,8 @@
 // Version: 0.1
 /*
 
-Licence terms:
-
-* Free distribution;
-* Inclusion of the source code;
-* Allow modifications and derivative works under the same conditions as the
-original software;
-* Integrity of the author's source code, and may require that derivative works
-have a different name or version;
-* No discrimination against persons or groups;
-* No restricted to field of activity;
-* The rights granted to a program will be valid for all software
-redistributed without imposing additional conditions;
-* The license must not be specific to a particular product;
-* The license must not place restrictions on other product that is distributed along with the
-licensed software;
-* The license must be technology neutral.
-
-*/// End of Licence //
+This work is licensed under the Creative Commons Attribution 3.0 Unported License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/.
 
 /*
 You can put this script at the end of "<body>" with the tag "<script>".
