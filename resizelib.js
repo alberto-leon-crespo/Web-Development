@@ -51,5 +51,5 @@ function resize(resolution, class_name_affected){ //resolution format is 800x600
 function bodySize(){
 	var height=document.body.clientHeight;
 	
-	alert("Body resolution: "+height)
+	alert("Body resolution: "+height);
 }
