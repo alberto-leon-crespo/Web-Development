@@ -39,8 +39,8 @@ function resize(resolution, class_name_affected){ //resolution format is 800x600
 			percentage_width=(object_width*100)/resolution[0];
 			percentage_height=(object_height*100)/resolution[1];
 
-			total_width=(percentage_width*screen.width)/100;
-			total_height=((percentage_height-7.87)*screen.height)/100;
+			total_width=(percentage_width*window.width)/100;
+			total_height=(percentage_height*window.height)/100;
 			
 			object_width=HTMLobjects[i].style.width=total_width+"px";
 			object_height=HTMLobjects[i].style.height=total_height+"px";
