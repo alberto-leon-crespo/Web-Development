@@ -39,6 +39,8 @@ function resize(resolution, class_name_affected){ //resolution format is 800x600
 			percentage_width=(object_width*100)/resolution[0];
 			percentage_height=(object_height*100)/resolution[1];
 
+			alert("La ventana de tu navegador ocupa: "+document.body.clientWidth+"x"+document.body.clientHeight)
+
 			total_width=(percentage_width*document.body.clientWidth)/100;
 			total_height=(percentage_height*document.body.clientHeight)/100;
 			
